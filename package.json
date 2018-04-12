@@ -1,0 +1,25 @@
+{
+  "name": "Solution_Config",
+  "description": "Middle-tier HTTP Service layer to forwarding request from portal to TCUP services",
+  "version": "0.0.1",
+  "scripts": {
+    "start" :"node init/cluster.js"
+  },
+  "dependencies": {
+    "http-proxy-agent": "^2.0.0",
+    "https-proxy-agent": "^2.1.1",
+    "promise": "^8.0.1",
+    "pg-promise" :"^8.2.3",
+    "request": "^2.83.0",
+    "restify": "^4.0.0",
+    "winston": "^2.3.1",
+    "pg": "6.x",
+    "ejs": "2.5.6",
+    "express": "4.15.2",
+    "cool-ascii-faces": "1.3.4"
+  } ,
+  "engines": {
+    "node": "6.11.2",
+    "npm": "3.10.10"
+  }
+}
